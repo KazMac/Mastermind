@@ -6,5 +6,16 @@
 package mastermind;
 
 public interface Player {
-   
+  //  Code playerCode;
+
+    /*
+    * getter for player code
+    * */
+    Code getPlayerCode();
+
+    /*
+    * setter for player code
+    * */
+    void setPlayerCode();
+
 }
